@@ -24,7 +24,7 @@ install:
   - pip3 install --upgrade Cython==0.29.19 virtualenv
   - export PATH=$PATH:~/.local/bin/
   - ls -la
-  - echo "TODO COMPILE 32bit"
+  - echo "TODO COMPILE 64bit"
   - yes | cp -f buildozer-64bit.spec buildozer.spec
   - yes | buildozer android debug
   - ls -la
