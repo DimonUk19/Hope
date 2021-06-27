@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = QBA
+title = Hope
 
 # (str) Package name
-package.name = hope
+package.name = Hope
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
