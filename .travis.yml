@@ -25,7 +25,7 @@ install:
   - export PATH=$PATH:~/.local/bin/
   - ls -la
   - echo "TODO COMPILE 64bit"
-  - yes | cp -f buildozer-64bit.spec buildozer.spec
+  - yes | cp -f buildozer-86bit.spec buildozer.spec
   - yes | buildozer android debug
   - ls -la
   - ls bin/ -l
